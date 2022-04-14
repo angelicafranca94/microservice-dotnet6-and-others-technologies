@@ -19,7 +19,7 @@ public class CatalogContextSeed
         {
             new Product()
             {
-                Id = "1",
+                Id = "LpAj7FWXpX5lFmXWcfMO6KxB",
                 Name = "Iphone X",
                 Description = "Phone Apple Industries",
                 Image= "product1.png",
@@ -29,7 +29,7 @@ public class CatalogContextSeed
             },
             new Product()
             {
-                Id = "2",
+                Id = "EGH4Js6Qs2akqxmorEDqq2xT",
                 Name = "OnePlus8T",
                 Description = "Phone Oneplus Industries",
                 Image= "product1.png",
@@ -39,7 +39,7 @@ public class CatalogContextSeed
             },
              new Product()
             {
-                Id = "3",
+                Id = "TsJUHzbpPyn0HPJ6gFYhSPEk",
                 Name = "Travasumg",
                 Description = "Phone Samsung Industries",
                 Image= "product1.png",
