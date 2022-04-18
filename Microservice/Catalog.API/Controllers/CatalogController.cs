@@ -23,7 +23,7 @@ public class CatalogController : ControllerBase
     }
 
     [HttpGet("{id:length(24)}", Name = "GetProduct")]
-    public async Task<ActionResult<Product>> GetProductById(string id)
+    public async Task<ActionResult<Product>> GetProduct(string id)
     {
         var product = await _repository.GetProduct(id);
 
