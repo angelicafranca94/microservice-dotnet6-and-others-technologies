@@ -2,5 +2,4 @@
 
 ### Tecnologias utilizadas ⤵
 
-# Arquitetura Microsseviços
-# .Net6
+- Arquitetura em Microsserviços
