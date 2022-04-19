@@ -3,3 +3,11 @@
 ### Tecnologias utilizadas ⤵
 
 - Arquitetura em Microsserviços
+- .NET6
+- Docker
+- MongoDB
+- Redis
+- PostgreSQL
+- REST Api
+- Grpc
+- Visual Studio 2022
