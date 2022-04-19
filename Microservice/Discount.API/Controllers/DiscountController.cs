@@ -16,7 +16,7 @@ public class DiscountController : ControllerBase
         _repository = repository;
     }
 
-    [HttpGet("{productName}", Name = "GetDicount")]
+    [HttpGet("{productName}", Name = "GetDiscount")]
     public async Task<ActionResult<Coupon>> GetDiscount(string productName)
     {
         var coupon = await _repository.GetDiscount(productName);

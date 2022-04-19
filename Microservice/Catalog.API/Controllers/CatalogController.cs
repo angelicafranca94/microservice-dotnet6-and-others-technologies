@@ -52,7 +52,7 @@ public class CatalogController : ControllerBase
 
         await _repository.CreateProduct(product);
 
-        return CreatedAtAction("GetProduct", new {id = product.Id}, product);
+        return CreatedAtRoute("GetProduct", new {id = product.Id}, product);
     }
 
     [HttpPut]

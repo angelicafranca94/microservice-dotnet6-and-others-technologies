@@ -43,7 +43,7 @@ public class DiscountRepository : IDiscountRepository
         var connection = GetConnectionPostgreSQL();
 
         var affected = await connection.ExecuteAsync
-            ("INSER INTO Coupon (ProductName, Description, Amount)" +
+            ("INSERT INTO Coupon (ProductName, Description, Amount)" +
             "VALUES (@ProductName, @Description, @Amount)",
             new
             {
